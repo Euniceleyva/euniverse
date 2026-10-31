@@ -1,0 +1,20 @@
+{
+  "name": "euniverse",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/generate-artwork-catalog.mjs",
+    "predev": "npm run catalog",
+    "dev": "vite",
+    "prebuild": "npm run catalog",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}

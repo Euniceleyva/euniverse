@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Euniverse: pequeñas obras, grandes universos. Arte en miniatura hecho a mano." />
+  <meta name="theme-color" content="#f8edda" />
+  <title>Euniverse — Arte en miniatura</title>
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Ir al contenido</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Euniverse, volver al inicio">
+      <img src="/assets/brand/euniverse-logo-official.png" alt="Euniverse" width="1278" height="948" />
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span>Menú</span><i aria-hidden="true"></i></button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#galeria">Obras</a><a href="#sobre-mi">Mi historia</a><a href="#contacto">Contacto</a>
+    </nav>
+    <a class="header-cta" href="#galeria">Empezar el viaje</a>
+  </header>
+  <div class="flight-bird" data-flight-bird aria-hidden="true"><span></span><img src="/assets/brand/euniverse-bird.png" alt="" width="791" height="670" /></div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img class="hero__watercolor" src="/assets/brand/card-watercolor.webp" alt="" width="1702" height="630" fetchpriority="high" />
+      <div class="hero__copy">
+        <h1>Pequeñas obras,<br><span>grandes universos.</span></h1>
+        <p>Pinturas hechas a mano, con el corazón puesto hasta en el detalle más pequeño.</p>
+        <a class="journey-button" href="#galeria">Conocer las obras <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </div>
+      <div class="hero__visual" aria-label="Selección de pinturas hechas a mano">
+        <figure class="hero__art-peek hero__art-peek--left" aria-hidden="true"><img data-hero-art-left src="/assets/obras/catalog/20261023_121211-ee6a86482-fidelity-v3-medium-1000w.webp" alt="" /></figure>
+        <figure class="hero__art-peek hero__art-peek--right" aria-hidden="true"><img data-hero-art-right src="/assets/obras/catalog/20261023_121211-ee6a86482-fidelity-v3-medium-1000w.webp" alt="" /></figure>
+        <span class="hero__seal" aria-hidden="true">hecho<br>con amor</span>
+        <button class="hero__art" type="button" data-hero-art-open aria-label="Abrir obra destacada">
+          <img data-hero-art-image src="/assets/obras/catalog/20261023_121211-ee6a86482-fidelity-v3-medium-1000w.webp" alt="Obra destacada de Euniverse" />
+        </button>
+        <span class="hero__caption" aria-hidden="true">Piezas únicas · pintadas a mano</span>
+      </div>
+    </section>
+
+    <section class="journey" id="galeria" aria-labelledby="gallery-title">
+      <div class="journey__heading">
+        <div><h2 id="gallery-title">Un viaje por<br>cada pincelada.</h2><p>Desliza o usa el teclado para recorrer la colección; la golondrina te acompaña en el camino.</p></div>
+        <div class="journey__count"><strong data-artwork-count>94</strong><span>obras hechas a mano</span></div>
+      </div>
+
+      <div class="filters" data-filters aria-label="Filtrar obras"></div>
+
+      <div class="carousel" data-carousel tabindex="0" role="region" aria-roledescription="carrusel" aria-label="Colección completa de obras">
+        <div class="carousel__viewport" data-carousel-viewport><div class="carousel__track" data-carousel-track></div></div>
+        <div class="carousel__controls">
+          <button class="carousel__pause-dot" type="button" data-carousel-toggle aria-pressed="false" aria-label="Pausar carrusel automático"><span aria-hidden="true"></span></button>
+          <div class="carousel__dots" data-carousel-dots role="group" aria-label="Posiciones del carrusel"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="sobre-mi">
+      <img class="closing__flowers" src="/assets/brand/card-watercolor.webp" alt="" width="1702" height="630" loading="lazy" />
+      <div class="closing__story">
+        <figure class="closing__portrait"><img src="/assets/brand/euni-portrait.webp" alt="Euni, artista de Euniverse" width="2000" height="2000" loading="lazy" /></figure>
+        <div>
+          <h2>Detrás de cada pequeño universo hay una historia.</h2>
+          <p>Me encanta crear mundos que, aunque sean pequeños, guardan sentimientos enormes. Cada pintura lleva un pedacito de mi corazón, de mi alma y de la manera en que veo la vida.</p>
+        </div>
+      </div>
+      <div class="closing__contact" id="contacto">
+        <img src="/assets/brand/euniverse-logo-official.png" alt="Euniverse" width="1278" height="948" loading="lazy" />
+        <p>Un universo hecho a mano para ti.</p>
+        <a href="https://euniverseart.com">euniverseart.com <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span data-year></span> Euniverse</p><a href="#inicio">Volver al inicio</a></footer>
+
+  <dialog class="artwork-dialog" data-artwork-dialog aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Cerrar vista ampliada"><span></span><span></span></button>
+    <h2 class="visually-hidden" id="dialog-title">Obra ampliada</h2>
+    <div class="dialog-visual"><img data-dialog-image src="/assets/obras/catalog/20260504_145511-1-9216f3b31-fidelity-v3-medium-1000w.webp" alt="Obra de Euniverse" /></div>
+    <div class="dialog-nav"><button type="button" data-dialog-prev aria-label="Obra anterior"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5m5-5-5 5 5 5"/></svg></button><span data-dialog-position></span><button type="button" data-dialog-next aria-label="Obra siguiente"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button></div>
+  </dialog>
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-23T19:33:46.346Z",
+        "reason": "False positive: heading sizes are defined in imported CSS with h1/h2 clamps from 3rem to 6rem; detector inspected HTML without resolving the Vite stylesheet."
+      }
+    ]
+  }
+}

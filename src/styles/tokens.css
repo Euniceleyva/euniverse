@@ -1,0 +1,10 @@
+:root {
+  --cream: #f8edda; --paper: #fffaf3; --ink: #32160f; --ink-soft: #735b4d;
+  --sage: #7f8154; --sage-soft: #d9ddc6; --sky: #dce9f2; --blue: #52778a;
+  --mauve: #b86f79; --wine: #722d3c; --orange: #d76b35; --yellow: #f5c86d;
+  --display: "Nunito", "Arial Rounded MT Bold", sans-serif;
+  --body: "Nunito", Arial, sans-serif;
+  --gutter: clamp(1.15rem, 4vw, 4.8rem);
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --shadow-art: 0 32px 80px rgba(50, 22, 15, .18), 0 8px 22px rgba(50, 22, 15, .10);
+}

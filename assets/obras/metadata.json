@@ -1,0 +1,15 @@
+{
+  "__categoryLabels": {},
+  "logo_euniverse.png": {
+    "exclude": true,
+    "reason": "Recurso de identidad visual, no es una obra del catálogo"
+  },
+  "ave.png": {
+    "exclude": true,
+    "reason": "Recurso gráfico de identidad visual, no es una obra del catálogo"
+  },
+  "euni.png": {
+    "exclude": true,
+    "reason": "Retrato de la artista, no es una obra del catálogo"
+  }
+}

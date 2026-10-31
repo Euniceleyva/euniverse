@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-31T01:54:59.095Z",
+  "sourceDirectory": "obras/",
+  "sourceCount": 94,
+  "discoveredImageCount": 97,
+  "excludedFiles": [
+    "ave.png",
+    "euni.png",
+    "logo_euniverse.png"
+  ],
+  "catalogCount": 94,
+  "generatedVariantCount": 282,
+  "imageTreatment": "Codificación WebP de alta calidad con conservación del perfil ICC original y sharp YUV; originales intactos.",
+  "uniqueCatalogPaths": 282,
+  "invalidFiles": [],
+  "duplicateSourceContent": [],
+  "checks": {
+    "everySourceIncluded": true,
+    "noGeneratedPathDuplicates": true,
+    "everyVariantExists": true,
+    "noVariantUpscaled": true
+  }
+}
