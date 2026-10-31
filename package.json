@@ -7,7 +7,6 @@
     "catalog": "node scripts/generate-artwork-catalog.mjs",
     "predev": "npm run catalog",
     "dev": "vite",
-    "prebuild": "npm run catalog",
     "build": "vite build",
     "preview": "vite preview"
   },
